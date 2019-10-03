@@ -47,7 +47,7 @@ namespace Variables
             Console.WriteLine("test ==: {0}", hello.Equals("hello"));
 
             Console.WriteLine("compare: {0}", hello.CompareTo(world));
-            Console.WriteLine("compare: {0}", hello.CompareTo(hello));
+            Console.WriteLine("compare: {0}", hello.CompareTo(hello)); 
 
             // concatentation
             str = hello + "" + world;
